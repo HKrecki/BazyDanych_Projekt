@@ -15,10 +15,13 @@ namespace WindowsFormsApp2
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Logowanie());
-           
+          
+            Application.ExitThread();
+            Application.Exit();
         }
     }
 }

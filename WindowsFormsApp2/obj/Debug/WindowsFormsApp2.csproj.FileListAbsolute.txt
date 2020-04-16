@@ -16,3 +16,7 @@ C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Window
 C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
 C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Dyrektor.resources
+C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_kadry.resources
+C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_pociagi.resources
+C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_wyczysc.resources
