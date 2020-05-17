@@ -20,3 +20,105 @@ C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\Window
 C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_kadry.resources
 C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_pociagi.resources
 C:\Users\Michał\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_wyczysc.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\MySql.Data.dll
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\Renci.SshNet.dll
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\bin\Debug\MySql.Data.xml
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_kadry.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_pociagi.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_wyczysc.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Dyrektor.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Logowanie.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_anulujBilet.resources
+C:\Users\User\Source\Repos\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_zmienTerminPrzejazdu.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\MySql.Data.dll
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\Google.Protobuf.dll
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\Renci.SshNet.dll
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\MySql.Data.xml
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_kadry.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_pociagi.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_wyczysc.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Dyrektor.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_anulujBilet.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_zmienTerminPrzejazdu.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Logowanie.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Michał\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\Renci.SshNet.dll
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\bin\Debug\MySql.Data.xml
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_kadry.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_pociagi.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_wyczysc.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Dyrektor.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Kasjer.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Kasjer_sprawdzDostepnosc.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_anulujBilet.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_zmienTerminPrzejazdu.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Logowanie.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\User\Desktop\bazy\Bazy_Danych\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\Renci.SshNet.dll
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\bin\Debug\MySql.Data.xml
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_kadry.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_pociagi.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Admin_wyczysc.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Dyrektor.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Kasjer.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Kasjer_sprawdzDostepnosc.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_anulujBilet.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.KierownikZmiany_zmienTerminPrzejazdu.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Logowanie.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\User\Desktop\bazy\Bazy danych - Projekt\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Kasjer_kupBilet.resources

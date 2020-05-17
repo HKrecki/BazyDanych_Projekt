@@ -114,6 +114,14 @@ namespace WindowsFormsApp2
                 dyrektor.Region = this.Region;
                 this.Close();
             }
+            else if (stanowisko == "Kierownik" && Poprawne == true) // Tutaj tak samo
+            {
+                KierownikZmiany admin = new KierownikZmiany();
+                admin.Region = this.Region;
+                this.Hide();
+                admin.ShowDialog();
+                this.Close();
+            }
         }
         
         private void label1_Click(object sender, EventArgs e)
@@ -122,6 +130,11 @@ namespace WindowsFormsApp2
         }
 
         private void Logowanie_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Login_TextChanged(object sender, EventArgs e)
         {
 
         }

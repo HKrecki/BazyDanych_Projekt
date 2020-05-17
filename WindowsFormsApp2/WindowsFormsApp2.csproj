@@ -78,6 +78,42 @@
     <Compile Include="Dyrektor.Designer.cs">
       <DependentUpon>Dyrektor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kasjer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasjer.Designer.cs">
+      <DependentUpon>Kasjer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasjer_kupBilet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasjer_kupBilet.Designer.cs">
+      <DependentUpon>Kasjer_kupBilet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kasjer_sprawdzDostepnosc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kasjer_sprawdzDostepnosc.Designer.cs">
+      <DependentUpon>Kasjer_sprawdzDostepnosc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KierownikZmiany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KierownikZmiany.Designer.cs">
+      <DependentUpon>KierownikZmiany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KierownikZmiany_anulujBilet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KierownikZmiany_anulujBilet.Designer.cs">
+      <DependentUpon>KierownikZmiany_anulujBilet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KierownikZmiany_zmienTerminPrzejazdu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KierownikZmiany_zmienTerminPrzejazdu.Designer.cs">
+      <DependentUpon>KierownikZmiany_zmienTerminPrzejazdu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Logowanie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +136,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dyrektor.resx">
       <DependentUpon>Dyrektor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasjer.resx">
+      <DependentUpon>Kasjer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasjer_kupBilet.resx">
+      <DependentUpon>Kasjer_kupBilet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kasjer_sprawdzDostepnosc.resx">
+      <DependentUpon>Kasjer_sprawdzDostepnosc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KierownikZmiany.resx">
+      <DependentUpon>KierownikZmiany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KierownikZmiany_anulujBilet.resx">
+      <DependentUpon>KierownikZmiany_anulujBilet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KierownikZmiany_zmienTerminPrzejazdu.resx">
+      <DependentUpon>KierownikZmiany_zmienTerminPrzejazdu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Logowanie.resx">
       <DependentUpon>Logowanie.cs</DependentUpon>

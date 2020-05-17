@@ -24,7 +24,7 @@ namespace WindowsFormsApp2
             {
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
 
-                string Query = "UPDATE Polaczenia SET Data = " + nowaData_ZmianaTerminu.Text + "WHERE idPolaczenia = " + NumerBiletu_TextBox.Text;
+                string Query = "UPDATE Polaczenia SET Data = '" + nowaData_ZmianaTerminu.Text + "' WHERE idPolaczenia = " + NumerBiletu_TextBox.Text;
 
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
 

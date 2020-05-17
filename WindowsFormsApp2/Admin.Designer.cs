@@ -38,9 +38,9 @@
             // 
             this.Powitanie_admin.AutoSize = true;
             this.Powitanie_admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Powitanie_admin.Location = new System.Drawing.Point(256, 31);
+            this.Powitanie_admin.Location = new System.Drawing.Point(257, 76);
             this.Powitanie_admin.Name = "Powitanie_admin";
-            this.Powitanie_admin.Size = new System.Drawing.Size(280, 26);
+            this.Powitanie_admin.Size = new System.Drawing.Size(244, 24);
             this.Powitanie_admin.TabIndex = 0;
             this.Powitanie_admin.Text = "Witaj na pulpicie admina!";
             this.Powitanie_admin.Click += new System.EventHandler(this.label1_Click);

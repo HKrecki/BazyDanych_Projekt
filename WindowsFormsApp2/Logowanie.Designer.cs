@@ -41,17 +41,18 @@
             this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.74545F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Login.Location = new System.Drawing.Point(271, 148);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(140, 31);
+            this.Login.Size = new System.Drawing.Size(140, 28);
             this.Login.TabIndex = 0;
             this.Login.Tag = "";
             this.Login.Text = "Login";
+            this.Login.TextChanged += new System.EventHandler(this.Login_TextChanged);
             // 
             // Haslo
             // 
             this.Haslo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.74545F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Haslo.Location = new System.Drawing.Point(271, 217);
             this.Haslo.Name = "Haslo";
-            this.Haslo.Size = new System.Drawing.Size(140, 31);
+            this.Haslo.Size = new System.Drawing.Size(140, 28);
             this.Haslo.TabIndex = 1;
             this.Haslo.Text = "Haslo";
             this.Haslo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -73,7 +74,7 @@
             this.Log_kom.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.Log_kom.Location = new System.Drawing.Point(191, 363);
             this.Log_kom.Name = "Log_kom";
-            this.Log_kom.Size = new System.Drawing.Size(0, 29);
+            this.Log_kom.Size = new System.Drawing.Size(0, 25);
             this.Log_kom.TabIndex = 3;
             this.Log_kom.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -83,7 +84,7 @@
             this.Powitanie_logowanie.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.74545F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Powitanie_logowanie.Location = new System.Drawing.Point(253, 27);
             this.Powitanie_logowanie.Name = "Powitanie_logowanie";
-            this.Powitanie_logowanie.Size = new System.Drawing.Size(189, 25);
+            this.Powitanie_logowanie.Size = new System.Drawing.Size(163, 24);
             this.Powitanie_logowanie.TabIndex = 4;
             this.Powitanie_logowanie.Text = "Witaj w aplikacji!";
             // 
@@ -93,7 +94,7 @@
             this.Powitanie_logowanie2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.78182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Powitanie_logowanie2.Location = new System.Drawing.Point(138, 81);
             this.Powitanie_logowanie2.Name = "Powitanie_logowanie2";
-            this.Powitanie_logowanie2.Size = new System.Drawing.Size(440, 24);
+            this.Powitanie_logowanie2.Size = new System.Drawing.Size(365, 20);
             this.Powitanie_logowanie2.TabIndex = 5;
             this.Powitanie_logowanie2.Text = "Aby przejsc do swojego ekranu wpisz Login i Haslo";
             // 
