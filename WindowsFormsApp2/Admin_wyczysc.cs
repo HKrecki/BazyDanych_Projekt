@@ -23,8 +23,13 @@ namespace WindowsFormsApp2
         {
             try
             {
-                //delete FROM polaczenia WHERE Data < DATE_SUB(NOW(), INTERVAL 10 DAY);
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
+
+                foreach (char c in wyczysc_text1.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
 
                 string Query = "delete FROM polaczenia WHERE Data < DATE_SUB(NOW(), INTERVAL " + wyczysc_text1.Text + " DAY);";
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);

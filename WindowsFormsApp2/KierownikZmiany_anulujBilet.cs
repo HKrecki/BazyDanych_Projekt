@@ -24,6 +24,14 @@ namespace WindowsFormsApp2
             {
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
 
+                foreach (char c in numerBiletu_TextBox.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+
+
                 string Query = "delete FROM Transakcja WHERE idTransakcja = " + numerBiletu_TextBox.Text + ";";
 
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);

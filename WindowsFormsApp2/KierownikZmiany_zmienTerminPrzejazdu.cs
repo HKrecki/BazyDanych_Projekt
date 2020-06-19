@@ -24,6 +24,20 @@ namespace WindowsFormsApp2
             {
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
 
+
+                foreach (char c in nowaData_ZmianaTerminu.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+                foreach (char c in NumerBiletu_TextBox.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+
                 string Query = "UPDATE Polaczenia SET Data = '" + nowaData_ZmianaTerminu.Text + "' WHERE idPolaczenia = " + NumerBiletu_TextBox.Text;
 
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);

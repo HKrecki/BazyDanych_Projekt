@@ -28,6 +28,36 @@ namespace WindowsFormsApp2
             {
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
 
+                foreach (char c in ZakupBiletu_Pesel_textBox.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+                foreach (char c in ZakupBiletu_Imie_textBox.Text)
+                {
+                    if (char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+                foreach (char c in ZakupBiletu_Znizka_textBox.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+                foreach (char c in ZakupBiletu_Telefon_textBox.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+                foreach (char c in ZakupBiletu_adres_textBox.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
                 string Query = "INSERT INTO klient VALUES (" + ZakupBiletu_Pesel_textBox.Text + ",'" + ZakupBiletu_Imie_textBox.Text + "','" + ZakupBiletu_Nazwisko_textBox + "'," + ZakupBiletu_Znizka_textBox.Text + "," + ZakupBiletu_Telefon_textBox.Text + ",'" + ZakupBiletu_adres_textBox.Text + ");";
 
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
@@ -55,6 +85,18 @@ namespace WindowsFormsApp2
             try
             {
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
+
+                foreach (char c in ZakupBiletu_stacjaOdjazdu.Text)
+                {
+                    if (char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+                foreach (char c in ZakupBiletu_godzina.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
 
 
                 string Query = "SELECT idTrasy FROM Trasy WHERE EXISTS (SELECT Stacje, Godzina_odj FROM trasy WHERE Stacje='" + ZakupBiletu_stacjaOdjazdu.Text + "' AND Godzina_odj='" + ZakupBiletu_godzina.Text + "')";
@@ -84,6 +126,12 @@ namespace WindowsFormsApp2
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
 
 
+                foreach (char c in ZakupBiletu_data.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
                 string Query = "SELECT idPolaczenia FROM polaczenia WHERE polaczenia.trasy_idTrasy=" + idTrasy + " AND polaczenia.Data='" + ZakupBiletu_data.Text + "'";
 
 
@@ -109,6 +157,12 @@ namespace WindowsFormsApp2
             try
             {
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
+
+                foreach (char c in ZakupBiletu_Pesel_textBox.Text)
+                {
+                    if (!char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
 
                 string Query = "INSERT INTO transakcja(idKlient - PESEL, idPolaczenia) VALUES("+ ZakupBiletu_Pesel_textBox.Text +", " + idPolaczenia + ");";
 

@@ -39,6 +39,9 @@ namespace WindowsFormsApp2
             {
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
 
+
+
+
                 string Query = "select Haslo from pracownicy where LOGIN = '" +Login.Text+"' ;";
                 MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
 
@@ -121,6 +124,10 @@ namespace WindowsFormsApp2
                 this.Hide();
                 admin.ShowDialog();
                 this.Close();
+            }
+            else
+            {
+                Log_kom.Text = "Podano błędny format danych";
             }
         }
         

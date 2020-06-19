@@ -32,6 +32,18 @@ namespace WindowsFormsApp2
                 string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root;database=bd2";
 
 
+                foreach (char c in Kasjer_SprawdzDostepnosc_StacjaOdjazdu_textBox.Text)
+                {
+                    if (char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
+                foreach (char c in Kasjer_SprawdzDostepnosc_data_textBox.Text)
+                {
+                    if (char.IsDigit(c))
+                        MessageBox.Show("Podano bledny format danych");
+                }
+
                 string Query = "SELECT polaczenia.Ilosc_miejsc FROM polaczenia, trasy WHERE(trasy.Stacje = " + Kasjer_SprawdzDostepnosc_StacjaOdjazdu_textBox.Text + ") AND(trasy.idTrasy = polaczenia.trasy_idTrasy) AND polaczenia.Data = '" + Kasjer_SprawdzDostepnosc_data_textBox.Text + "' ;";
 
 
@@ -61,7 +73,14 @@ namespace WindowsFormsApp2
         {
             Sprawdz_dostepnosc();
 
-            if(iloscMiejsc > 0)
+
+            foreach (char c in ilosc_miejsc.Text)
+            {
+                if (!char.IsDigit(c))
+                    MessageBox.Show("Podano bledny format danych");
+            }
+
+            if (iloscMiejsc > 0)
             {
                 ilosc_miejsc.Text = "Dostepne: " + iloscMiejsc.ToString() + " miejsc ";
             }
