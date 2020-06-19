@@ -13,6 +13,8 @@ namespace WindowsFormsApp2
 {
     public partial class KierownikZmiany_zmienTerminPrzejazdu : Form
     {
+        bool czyPoprawne = true;
+
         public KierownikZmiany_zmienTerminPrzejazdu()
         {
             InitializeComponent();
@@ -29,12 +31,14 @@ namespace WindowsFormsApp2
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
                 }
 
                 foreach (char c in NumerBiletu_TextBox.Text)
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
                 }
 
 
@@ -62,7 +66,18 @@ namespace WindowsFormsApp2
 
         private void Zatwierdź_Click(object sender, EventArgs e)
         {
-            Zmien_date();
+            if (czyPoprawne == true)
+            {
+                Zmien_date();
+            }
+            else
+            {
+                KierownikZmiany_zmienTerminPrzejazdu zmien = new KierownikZmiany_zmienTerminPrzejazdu();
+                zmien.Region = this.Region;
+                this.Hide();
+                zmien.ShowDialog();
+                this.Show();
+            }
         }
     }
 }

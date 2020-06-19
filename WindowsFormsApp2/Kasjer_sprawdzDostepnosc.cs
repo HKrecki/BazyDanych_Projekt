@@ -15,6 +15,7 @@ namespace WindowsFormsApp2
     public partial class Kasjer_sprawdzDostepnosc : Form
     {
         int iloscMiejsc = -1;
+        bool czyPoprawne = true;
 
 
 
@@ -36,12 +37,14 @@ namespace WindowsFormsApp2
                 {
                     if (char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
                 }
 
                 foreach (char c in Kasjer_SprawdzDostepnosc_data_textBox.Text)
                 {
                     if (char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
                 }
 
                 string Query = "SELECT polaczenia.Ilosc_miejsc FROM polaczenia, trasy WHERE(trasy.Stacje = " + Kasjer_SprawdzDostepnosc_StacjaOdjazdu_textBox.Text + ") AND(trasy.idTrasy = polaczenia.trasy_idTrasy) AND polaczenia.Data = '" + Kasjer_SprawdzDostepnosc_data_textBox.Text + "' ;";
@@ -71,23 +74,28 @@ namespace WindowsFormsApp2
 
         private void Kasjer_SprawdzDostepnosc_Zatwierdz_pushButton_Click(object sender, EventArgs e)
         {
-            Sprawdz_dostepnosc();
-
-
-            foreach (char c in ilosc_miejsc.Text)
+            if (czyPoprawne)
             {
-                if (!char.IsDigit(c))
-                    MessageBox.Show("Podano bledny format danych");
-            }
+                Sprawdz_dostepnosc();
 
-            if (iloscMiejsc > 0)
-            {
-                ilosc_miejsc.Text = "Dostepne: " + iloscMiejsc.ToString() + " miejsc ";
+                if (iloscMiejsc > 0)
+                {
+                    ilosc_miejsc.Text = "Dostepne: " + iloscMiejsc.ToString() + " miejsc ";
+                }
+                else
+                {
+                    ilosc_miejsc.Text = "Brak wolnych miejsc ";
+                }
             }
             else
             {
-                ilosc_miejsc.Text = "Brak wolnych miejsc ";
+                Kasjer_sprawdzDostepnosc sprawdz = new Kasjer_sprawdzDostepnosc();
+                sprawdz.Region = this.Region;
+                this.Hide();
+                sprawdz.ShowDialog();
+                this.Show();
             }
+            
         }
 
         private void Kasjer_SprawdzDostepnosc_data_textBox_TextChanged(object sender, EventArgs e)

@@ -16,6 +16,8 @@ namespace WindowsFormsApp2
         int idTrasy = 0;
         int idPolaczenia = 0;
 
+        bool czyPoprawne = true;
+
 
         public Kasjer_kupBilet()
         {
@@ -32,30 +34,39 @@ namespace WindowsFormsApp2
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
                 }
 
                 foreach (char c in ZakupBiletu_Imie_textBox.Text)
                 {
                     if (char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
                 foreach (char c in ZakupBiletu_Znizka_textBox.Text)
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
                 foreach (char c in ZakupBiletu_Telefon_textBox.Text)
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
                 foreach (char c in ZakupBiletu_adres_textBox.Text)
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
                 string Query = "INSERT INTO klient VALUES (" + ZakupBiletu_Pesel_textBox.Text + ",'" + ZakupBiletu_Imie_textBox.Text + "','" + ZakupBiletu_Nazwisko_textBox + "'," + ZakupBiletu_Znizka_textBox.Text + "," + ZakupBiletu_Telefon_textBox.Text + ",'" + ZakupBiletu_adres_textBox.Text + ");";
@@ -90,12 +101,16 @@ namespace WindowsFormsApp2
                 {
                     if (char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
                 foreach (char c in ZakupBiletu_godzina.Text)
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
 
@@ -130,6 +145,8 @@ namespace WindowsFormsApp2
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
                 string Query = "SELECT idPolaczenia FROM polaczenia WHERE polaczenia.trasy_idTrasy=" + idTrasy + " AND polaczenia.Data='" + ZakupBiletu_data.Text + "'";
@@ -162,6 +179,8 @@ namespace WindowsFormsApp2
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
+
                 }
 
                 string Query = "INSERT INTO transakcja(idKlient - PESEL, idPolaczenia) VALUES("+ ZakupBiletu_Pesel_textBox.Text +", " + idPolaczenia + ");";
@@ -192,15 +211,26 @@ namespace WindowsFormsApp2
 
         private void Zatwierdź_Click(object sender, EventArgs e)
         {
-            Dodaj_klienta();
-            CzyIstniejeTrasa();
-            CzyIstniejePolaczenie();
-
-            // Jesli istnieje polaczenie
-            if(idTrasy != 0 && idPolaczenia != 0)
+            if(czyPoprawne == false)
             {
-                // Utworz transakcje
+                Kasjer_kupBilet kupBilet = new Kasjer_kupBilet();
+                kupBilet.Region = this.Region;
+                this.Hide();
+                kupBilet.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                Dodaj_klienta();
+                CzyIstniejeTrasa();
+                CzyIstniejePolaczenie();
 
+                // Jesli istnieje polaczenie
+                if (idTrasy != 0 && idPolaczenia != 0)
+                {
+                    // Utworz transakcje
+
+                }
             }
         }
     }

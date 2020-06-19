@@ -22,6 +22,8 @@ namespace WindowsFormsApp2
         bool Poprawne = false;
         String haslo = "dd";
         String stanowisko = "ddd";
+        // bool czyPoprawne; // format zampisu
+
         public Logowanie()
         {
             InitializeComponent();

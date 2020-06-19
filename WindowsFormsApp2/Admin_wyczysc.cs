@@ -13,6 +13,8 @@ namespace WindowsFormsApp2
 {
     public partial class Admin_wyczysc : Form
     {
+        bool czyPoprawne = true;
+
         public Admin_wyczysc()
         {
             InitializeComponent();
@@ -29,6 +31,7 @@ namespace WindowsFormsApp2
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                        czyPoprawne = false;
                 }
 
                 string Query = "delete FROM polaczenia WHERE Data < DATE_SUB(NOW(), INTERVAL " + wyczysc_text1.Text + " DAY);";
@@ -52,7 +55,20 @@ namespace WindowsFormsApp2
 
         private void wyczysc_OK_Click(object sender, EventArgs e)
         {
-            Usun_dane_polaczenia();
+            if(czyPoprawne = true)
+            {
+                Usun_dane_polaczenia();
+            }
+            else
+            {
+                Admin_wyczysc wyczysc = new Admin_wyczysc();
+                wyczysc.Region = this.Region;
+                this.Hide();
+                wyczysc.ShowDialog();
+                this.Show();
+            }
+
+            
         }
     }
 }

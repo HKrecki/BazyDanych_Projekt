@@ -13,8 +13,11 @@ namespace WindowsFormsApp2
 {
     public partial class KierownikZmiany_anulujBilet : Form
     {
+        bool czyPoprawne = true;
+
         public KierownikZmiany_anulujBilet()
-        {
+        { 
+
             InitializeComponent();
         }
 
@@ -28,6 +31,7 @@ namespace WindowsFormsApp2
                 {
                     if (!char.IsDigit(c))
                         MessageBox.Show("Podano bledny format danych");
+                    czyPoprawne = false;
                 }
 
 
@@ -67,7 +71,18 @@ namespace WindowsFormsApp2
 
         private void Zatwierdź_Click(object sender, EventArgs e)
         {
-            Anuluj_bilet();
+            if (czyPoprawne = true)
+            {
+                Anuluj_bilet();
+            }
+            else
+            {
+                Kasjer_sprawdzDostepnosc sprawdz = new Kasjer_sprawdzDostepnosc();
+                sprawdz.Region = this.Region;
+                this.Hide();
+                sprawdz.ShowDialog();
+                this.Show();
+            }
         }
     }
 }
